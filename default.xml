@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="neapp"
+           fetch=".." />
+
+  <default revision="master"
+           remote="neapp"
+           sync-j="4" />
+
+  <project path="Browsers/neon-extension-browser-base" name="neon-extension-browser-base" />
+  <project path="Browsers/neon-extension-browser-firefox" name="neon-extension-browser-firefox" />
+  <project path="Browsers/neon-extension-browser-webextension" name="neon-extension-browser-webextension" />
+
+  <project path="Destinations/neon-extension-destination-lastfm" name="neon-extension-destination-lastfm" />
+
+  <project path="Sources/neon-extension-source-googlemusic" name="neon-extension-source-googlemusic" />
+
+  <project path="Packages/neon-extension-firefox" name="neon-extension-firefox" />
+
+  <project path="neon-extension-core" name="neon-extension-core" />
+  <project path="neon-extension-framework" name="neon-extension-framework" />
+</manifest>
