@@ -3,7 +3,7 @@
   <remote  name="neapp"
            fetch=".." />
 
-  <default revision="master"
+  <default revision="v1.6"
            remote="neapp"
            sync-j="4" />
 
