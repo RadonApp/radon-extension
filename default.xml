@@ -7,17 +7,19 @@
            remote="neapp"
            sync-j="4" />
 
-  <project path="Browsers/neon-extension-browser-base" name="neon-extension-browser-base" />
+  <project path="Browsers/neon-extension-browser-base" name="neon-extension-browser-base" groups="chrome,firefox" />
+  <project path="Browsers/neon-extension-browser-webextension" name="neon-extension-browser-webextension" groups="chrome,firefox" />
 
-  <project path="neon-extension-framework" name="neon-extension-framework" />
-  <project path="neon-extension-core" name="neon-extension-core" />
+  <project path="neon-extension-framework" name="neon-extension-framework" groups="chrome,firefox" />
+  <project path="neon-extension-core" name="neon-extension-core" groups="chrome,firefox" />
 
-  <project path="Destinations/neon-extension-destination-lastfm" name="neon-extension-destination-lastfm" />
+  <project path="Destinations/neon-extension-destination-lastfm" name="neon-extension-destination-lastfm" groups="chrome,firefox" />
 
-  <project path="Sources/neon-extension-source-googlemusic" name="neon-extension-source-googlemusic" />
+  <project path="Sources/neon-extension-source-googlemusic" name="neon-extension-source-googlemusic" groups="chrome,firefox" />
 
-  <project path="Browsers/neon-extension-browser-webextension" name="neon-extension-browser-webextension" />
-  <project path="Browsers/neon-extension-browser-firefox" name="neon-extension-browser-firefox" />
+  <project path="Browsers/neon-extension-browser-chrome" name="neon-extension-browser-chrome" groups="chrome" />
+  <project path="Packages/neon-extension-chrome" name="neon-extension-chrome" groups="chrome" />
 
-  <project path="Packages/neon-extension-firefox" name="neon-extension-firefox" />
+  <project path="Browsers/neon-extension-browser-firefox" name="neon-extension-browser-firefox" groups="firefox" />
+  <project path="Packages/neon-extension-firefox" name="neon-extension-firefox" groups="firefox" />
 </manifest>
