@@ -3,7 +3,7 @@
   <remote  name="neapp"
            fetch=".." />
 
-  <default revision="v1.7"
+  <default revision="refs/tags/v1.7.2"
            remote="neapp"
            sync-j="4" />
 
