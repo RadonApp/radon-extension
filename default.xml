@@ -20,6 +20,7 @@
   <project path="Packages/neon-extension-firefox" name="neon-extension-firefox" groups="firefox" />
 
   <project path="Sources/neon-extension-source-googlemusic" name="neon-extension-source-googlemusic" groups="chrome,firefox" />
+  <project path="Sources/neon-extension-source-spotify" name="neon-extension-source-spotify" groups="chrome,firefox" />
 
   <project path="Tools/neon-extension-build" name="neon-extension-build" groups="chrome,firefox">
     <linkfile src="scripts/build.cmd" dest="build.cmd"/>
