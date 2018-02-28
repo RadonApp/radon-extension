@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="neapp"
-           fetch=".." />
+  <remote name="bitbucket/neapp"
+          fetch="ssh://git@bitbucket.org/NeonApp/" />
+
+  <remote name="neapp"
+          fetch=".." />
 
   <default revision="master"
            remote="neapp"
@@ -10,12 +13,15 @@
   <project path="Destinations/neon-extension-destination-lastfm" name="neon-extension-destination-lastfm" groups="chrome,firefox,opera" />
   <project path="Destinations/neon-extension-destination-librefm" name="neon-extension-destination-librefm" groups="chrome,firefox,opera" />
   <project path="Destinations/neon-extension-destination-listenbrainz" name="neon-extension-destination-listenbrainz" groups="chrome,firefox,opera" />
+  <project path="Destinations/neon-extension-destination-trakt" name="neon-extension-destination-trakt" groups="chrome,firefox,opera" />
 
   <project path="Packages/neon-extension-chrome" name="neon-extension-chrome" groups="chrome" />
   <project path="Packages/neon-extension-firefox" name="neon-extension-firefox" groups="firefox" />
   <project path="Packages/neon-extension-opera" name="neon-extension-opera" groups="opera" />
 
+  <project path="Sources/neon-extension-source-amazonvideo" name="neon-extension-source-amazonvideo" groups="chrome,firefox,opera" />
   <project path="Sources/neon-extension-source-googlemusic" name="neon-extension-source-googlemusic" groups="chrome,firefox,opera" />
+  <project path="Sources/neon-extension-source-netflix" name="neon-extension-source-netflix" groups="chrome,firefox,opera" />
   <project path="Sources/neon-extension-source-spotify" name="neon-extension-source-spotify" groups="chrome,firefox,opera" />
 
   <project path="Tools/neon-extension-build" name="neon-extension-build" groups="chrome,firefox,opera">
