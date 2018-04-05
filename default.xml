@@ -7,11 +7,6 @@
            remote="neapp"
            sync-j="4" />
 
-  <project path="Browsers/neon-extension-browser-base" name="neon-extension-browser-base" groups="chrome,firefox" />
-  <project path="Browsers/neon-extension-browser-chrome" name="neon-extension-browser-chrome" groups="chrome" />
-  <project path="Browsers/neon-extension-browser-firefox" name="neon-extension-browser-firefox" groups="firefox" />
-  <project path="Browsers/neon-extension-browser-webextension" name="neon-extension-browser-webextension" groups="chrome,firefox" />
-
   <project path="Destinations/neon-extension-destination-lastfm" name="neon-extension-destination-lastfm" groups="chrome,firefox" />
   <project path="Destinations/neon-extension-destination-librefm" name="neon-extension-destination-librefm" groups="chrome,firefox" />
   <project path="Destinations/neon-extension-destination-listenbrainz" name="neon-extension-destination-listenbrainz" groups="chrome,firefox" />
