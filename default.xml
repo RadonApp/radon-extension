@@ -20,6 +20,8 @@
 
   <project path="Tools/neon-extension-build" name="neon-extension-build" groups="chrome,firefox,opera">
     <linkfile src="scripts/build.cmd" dest="build.cmd"/>
+    <linkfile src="scripts/release_create.cmd" dest="release_create.cmd"/>
+    <linkfile src="scripts/release_push.cmd" dest="release_push.cmd"/>
     <linkfile src="scripts/setup.cmd" dest="setup.cmd"/>
   </project>
 
