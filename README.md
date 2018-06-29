@@ -1,4 +1,4 @@
-# Neon Extension
+# Radon Extension
 
 ## Packages
 
