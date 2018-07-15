@@ -23,6 +23,7 @@
   <project path="Sources/neon-extension-source-googlemusic" name="neon-extension-source-googlemusic" groups="chrome,firefox,opera" />
   <project path="Sources/neon-extension-source-netflix" name="neon-extension-source-netflix" groups="chrome,firefox,opera" />
   <project path="Sources/neon-extension-source-spotify" name="neon-extension-source-spotify" groups="chrome,firefox,opera" />
+  <project path="Sources/neon-extension-source-youtubemusic" name="neon-extension-source-youtubemusic" groups="chrome,firefox,opera" />
 
   <project path="Tools/neon-extension-build" name="neon-extension-build" groups="chrome,firefox,opera">
     <linkfile src="scripts/build.cmd" dest="build.cmd"/>
