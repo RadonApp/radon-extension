@@ -6,7 +6,7 @@
   <remote name="neapp"
           fetch=".." />
 
-  <default revision="refs/tags/v2.0.1"
+  <default revision="refs/tags/v2.0.2"
            remote="neapp"
            sync-j="4" />
 
