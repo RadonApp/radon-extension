@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="bitbucket/neapp"
-          fetch="ssh://git@bitbucket.org/NeonApp/" />
+  <remote name="bitbucket"
+          fetch="ssh://git@bitbucket.org/RadonApp/" />
 
-  <remote name="neapp"
-          fetch=".." />
+  <remote name="origin"
+          fetch="ssh://git@github.com/RadonApp/" />
 
   <default revision="master"
-           remote="neapp"
+           remote="origin"
            sync-j="4" />
 
-  <project path="Destinations/neon-extension-destination-lastfm" name="neon-extension-destination-lastfm" groups="chrome,firefox,opera" />
-  <project path="Destinations/neon-extension-destination-librefm" name="neon-extension-destination-librefm" groups="chrome,firefox,opera" />
-  <project path="Destinations/neon-extension-destination-listenbrainz" name="neon-extension-destination-listenbrainz" groups="chrome,firefox,opera" />
-  <project path="Destinations/neon-extension-destination-trakt" name="neon-extension-destination-trakt" groups="chrome,firefox,opera" />
+  <project path="Packages/radon-extension-chrome" name="radon-extension-chrome" groups="chrome" />
+  <project path="Packages/radon-extension-firefox" name="radon-extension-firefox" groups="firefox" />
+  <project path="Packages/radon-extension-opera" name="radon-extension-opera" groups="opera" />
 
-  <project path="Packages/neon-extension-chrome" name="neon-extension-chrome" groups="chrome" />
-  <project path="Packages/neon-extension-firefox" name="neon-extension-firefox" groups="firefox" />
-  <project path="Packages/neon-extension-opera" name="neon-extension-opera" groups="opera" />
+  <project path="Plugins/radon-extension-plugin-amazonvideo" name="radon-extension-plugin-amazonvideo" groups="chrome,firefox,opera" />
+  <project path="Plugins/radon-extension-plugin-googlemusic" name="radon-extension-plugin-googlemusic" groups="chrome,firefox,opera" />
+  <project path="Plugins/radon-extension-plugin-lastfm" name="radon-extension-plugin-lastfm" groups="chrome,firefox,opera" />
+  <project path="Plugins/radon-extension-plugin-librefm" name="radon-extension-plugin-librefm" groups="chrome,firefox,opera" />
+  <project path="Plugins/radon-extension-plugin-listenbrainz" name="radon-extension-plugin-listenbrainz" groups="chrome,firefox,opera" />
+  <project path="Plugins/radon-extension-plugin-netflix" name="radon-extension-plugin-netflix" groups="chrome,firefox,opera" />
+  <project path="Plugins/radon-extension-plugin-spotify" name="radon-extension-plugin-spotify" groups="chrome,firefox,opera" />
+  <project path="Plugins/radon-extension-plugin-trakt" name="radon-extension-plugin-trakt" groups="chrome,firefox,opera" />
+  <project path="Plugins/radon-extension-plugin-youtubemusic" name="radon-extension-plugin-youtubemusic" groups="chrome,firefox,opera" />
 
-  <project path="Sources/neon-extension-source-amazonvideo" name="neon-extension-source-amazonvideo" groups="chrome,firefox,opera" />
-  <project path="Sources/neon-extension-source-googlemusic" name="neon-extension-source-googlemusic" groups="chrome,firefox,opera" />
-  <project path="Sources/neon-extension-source-netflix" name="neon-extension-source-netflix" groups="chrome,firefox,opera" />
-  <project path="Sources/neon-extension-source-spotify" name="neon-extension-source-spotify" groups="chrome,firefox,opera" />
-  <project path="Sources/neon-extension-source-youtubemusic" name="neon-extension-source-youtubemusic" groups="chrome,firefox,opera" />
-
-  <project path="Tools/neon-extension-build" name="neon-extension-build" groups="chrome,firefox,opera">
+  <project path="Tools/radon-extension-build" name="radon-extension-build" groups="chrome,firefox,opera">
     <linkfile src="scripts/build.cmd" dest="build.cmd"/>
     <linkfile src="scripts/neb.cmd" dest="neb.cmd"/>
     <linkfile src="scripts/release_create.cmd" dest="release_create.cmd"/>
     <linkfile src="scripts/release_push.cmd" dest="release_push.cmd"/>
   </project>
 
-  <project path="neon-extension-framework" name="neon-extension-framework" groups="chrome,firefox,opera" />
-  <project path="neon-extension-core" name="neon-extension-core" groups="chrome,firefox,opera" />
+  <project path="radon-extension-framework" name="radon-extension-framework" groups="chrome,firefox,opera" />
+  <project path="radon-extension-core" name="radon-extension-core" groups="chrome,firefox,opera" />
 </manifest>
