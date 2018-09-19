@@ -6,7 +6,7 @@
   <remote name="origin"
           fetch="ssh://git@github.com/RadonApp/" />
 
-  <default revision="master"
+  <default revision="v2.2"
            remote="origin"
            sync-j="4" />
 
